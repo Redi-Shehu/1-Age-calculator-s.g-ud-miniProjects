@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding: 2rem;
+}
+.container {
+  background-color: #fff;
+  width: 90vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
+}
+.container-title {
+  font-size: 3.6rem;
+}
+.form {
+  width: 85vw;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.form input {
+  margin: 2rem 0 1rem 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.form-btn {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s;
+}
+.form-btn:hover {
+  background-color: #0062cc;
+}
+.form p {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
